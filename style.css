@@ -1,0 +1,86 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+.months {
+padding: 70px 25px;
+    width: 93%;
+    background-color: rgb(35, 39, 65);
+    text-align: center;
+}
+
+.months ul {
+    margin: 0;
+    padding: 0;
+}
+
+.months ul li {
+ color: rgb(206, 206, 192);
+ font-size: 20px;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ font-weight: 900;
+}
+
+
+.months .previous{
+    float: left;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+.months .next{
+    float: right;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.weekdays{
+    margin: 0;
+    padding: 15px 0;
+    background-color: rgb(179, 140, 14);
+}
+
+.weekdays li{
+    display: inline-block;
+    width: 13.6%;
+    color: rgb(255, 244, 244);
+    text-align: center;
+}
+
+.days{
+    padding: 30px 0;
+    background-color: rgb(221, 228, 228);
+    margin: 0;
+}
+
+.days li{
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 18px;
+    color: rgb(7, 6, 5);
+}
+
+
+
+/* active class for current date */
+.active{
+    padding: 5px;
+    background-color: rgb(35, 39, 65);
+    color: white;
+}
